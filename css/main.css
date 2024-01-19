@@ -81,7 +81,7 @@ footer .extra {
 }
 
 @media (width < 1520px) {
-  .img-footer {
+  footer .img-footer {
     width: 4%;
   }
   .form {
@@ -109,7 +109,7 @@ footer .extra {
   }
 }
 @media (width < 830px) {
-  .img-footer {
+  footer .img-footer {
     width: 8%;
   }
   .form {
@@ -132,12 +132,12 @@ footer .extra {
   .form {
     width: 50%;
   }
-  .img-footer {
+  footer .img-footer {
     width: 10%;
   }
 }
 @media (width < 521px) {
-  .img-footer {
+  footer .img-footer {
     width: 13%;
   }
   .form {
@@ -161,7 +161,7 @@ footer .extra {
   .tarjetas {
     width: 100%;
   }
-  .img-footer {
+  footer .img-footer {
     width: 15%;
   }
   .form {
