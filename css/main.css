@@ -56,6 +56,7 @@ footer .extra {
   width: 100%;
   text-align: center;
   color: white;
+  font-weight: 900;
   text-wrap: 10px;
 }
 
@@ -97,11 +98,11 @@ footer .extra {
   }
 }
 @media (width < 992px) {
-  .historia-card-cuerpo-estadio {
+  .historia-card .historia-card-cuerpo-estadio {
     width: 100%;
     margin-bottom: 12px;
   }
-  .historia-card-cabecera-escudo {
+  .historia-card .historia-card-cabecera-escudo {
     width: 4%;
   }
   .form {
@@ -115,10 +116,10 @@ footer .extra {
   .form {
     width: 50%;
   }
-  .historia-card-cabecera-escudo {
+  .historia-card .historia-card-cabecera-escudo {
     width: 5%;
   }
-  .historia-card-cuerpo-estadio {
+  .historia-card .historia-card-cuerpo-estadio {
     margin-bottom: 10px;
   }
 }
@@ -126,7 +127,7 @@ footer .extra {
   .tarjetas {
     width: 80%;
   }
-  .historia-card-cuerpo-texto {
+  .historia-card .historia-card-cuerpo-texto {
     font-size: 17px;
   }
   .form {
@@ -143,17 +144,17 @@ footer .extra {
   .form {
     width: 80%;
   }
-  .historia-card-cuerpo-texto {
+  .historia-card .historia-card-cuerpo-texto {
     font-size: 14px;
     margin-left: 20px;
   }
-  .historia-card-cabecera-escudo {
+  .historia-card .historia-card-cabecera-escudo {
     width: 7%;
   }
-  .historia-card-cabecera-titulo {
+  .historia-card .historia-card-cabecera-titulo {
     margin-left: 30px;
   }
-  .historia-card-cuerpo-estadio {
+  .historia-card .historia-card-cuerpo-estadio {
     margin-left: 20px;
   }
 }
