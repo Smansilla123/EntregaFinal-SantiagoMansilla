@@ -1,0 +1,120 @@
+@media (width < 1520px){
+    .img-footer{
+        width: 4%;
+    }
+
+    .form{
+        width: 30%;
+     }
+}
+
+@media (width < 1200px){
+    .img-footer{
+        width: 5%;
+    }
+
+    .form{
+        width: 35%;
+    }
+
+}
+
+@media (width < 992px){
+    .historia-card-cuerpo-estadio{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .historia-card-cabecera-escudo{
+        width: 4%;
+    }
+
+    .form{
+        width: 40%;
+     }
+}
+
+@media (width < 830px){
+    .img-footer{
+        width: 8%;
+    }
+
+    .form{
+        width: 50%;
+    }
+
+
+    .historia-card-cabecera-escudo{
+
+        width: 5%;
+    
+      }
+
+      .historia-card-cuerpo-estadio{
+    
+        margin-bottom: 10px;
+    
+      }
+    
+}
+
+@media (width < 768px){
+    .tarjetas{
+        width: 80%;
+    }
+
+    .historia-card-cuerpo-texto{
+        font-size: 17px;;
+    }
+
+    .form{
+        width: 50%;
+     }
+
+     .img-footer{
+        width: 10%;
+     }
+}
+
+@media (width < 521px){
+    .img-footer{
+        width: 13%;
+    }
+
+    .form{
+        width: 80%;
+    }
+
+
+
+    .historia-card-cuerpo-texto{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .historia-card-cabecera-escudo{
+        width: 7%;
+    }
+
+    .historia-card-cabecera-titulo{
+        margin-left: 30px;
+    }
+
+    .historia-card-cuerpo-estadio{
+        margin-left: 20px;
+    }
+}
+
+@media (width < 420px){
+    .tarjetas{
+        width: 100%;
+    }
+    .img-footer{
+        width: 15%;
+    }
+
+    .form{
+        width: 90%;
+        margin-left: auto;
+     }
+}

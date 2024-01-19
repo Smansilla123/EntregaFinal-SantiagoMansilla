@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+$mainFont:'Raleway', sans-serif;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: $mainFont;
+    font-weight: 600;
+}
+
+.fondo{
+    background-image: url(../img/fondo\ 2.jpeg);
+}
+
+//Inicio de la Nav
+
+nav{
+    .logo{
+        margin-left: 15px;
+    }
+    
+    .nav-img-logo{
+        width: 45%;
+    }
+    
+    .nav-navegacion{
+        margin-right: 15px;
+    }
+}
+
+//Fin de la Nav
+
+//Inicio del Footer
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .imagenes-footer{
+        margin-left: 20px;
+    }
+    
+    .img-footer{
+        padding: 10px;
+        width: 3%;
+    }
+    
+    .extra{
+        color: white;
+        margin-right: 20px;
+    }
+}
+
+//Fin del Footer
+
+//Form
+.form{
+    width: 25%;
+ }

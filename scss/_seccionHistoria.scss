@@ -1,0 +1,32 @@
+.historia-card{
+    .historia-card-cabecera{
+  
+        display: flex;
+        align-items:center ;
+        margin-bottom: 15px;
+        gap: 10px;
+    
+      }
+    
+      .historia-card-cabecera-titulo{
+        margin-left: 10px;
+      }
+    
+      .historia-card-cabecera-escudo{
+    
+        width: 2%;
+    
+      }
+    
+    
+      .historia-card-cuerpo-estadio{
+        margin-bottom: 40px;
+    
+      }
+    
+      .historia-card-cuerpo-texto{
+        margin-top: -5px;
+        font-size:20px;
+        text-align: justify;
+      }
+}
