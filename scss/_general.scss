@@ -52,6 +52,11 @@ footer{
     .img-footer{
         padding: 10px;
         width: 3%;
+
+        &:hover{
+            transform: rotateY(360deg);
+            transition: all 2s;
+        }
     }
     
     .extra{
@@ -66,3 +71,5 @@ footer{
 .form{
     width: 25%;
  }
+
+ 
