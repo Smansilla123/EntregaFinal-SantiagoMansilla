@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
-$mainFont:'Raleway', sans-serif;
+$titulosFont:'Comfortaa', sans-serif;
+$textosFont:'Raleway', sans-serif;
+
+
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: $mainFont;
-    font-weight: 600;
 }
 
 .fondo{
-    background: #f5f3f4;
+   background-color: #a5a5a5;
 }
 
 //Inicio de la Nav
 
 nav{
+    
+        font-family: $textosFont;
+   
+
     .logo{
         margin-left: 15px;
     }
@@ -27,6 +33,7 @@ nav{
     .nav-navegacion{
         margin-right: 15px;
     }
+
 }
 
 //Fin de la Nav

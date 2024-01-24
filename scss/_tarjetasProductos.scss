@@ -1,20 +1,25 @@
 .card{
     width: 80%;
     margin-left: 27px;
+    font-family: $textosFont;
+    color: white;
 
     .card-bg{
-        background-color: #d6ccc2;
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     }
 
     .card-title{
-        font-weight: 900;
+        font-weight: 600;
     }
 }
 
 .cartelera{
+    font-family: $titulosFont;
     width: 100%;
     text-align: center;
     color: white;
     font-weight: 900;
     text-wrap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
  }

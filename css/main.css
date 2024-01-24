@@ -1,15 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
 }
 
 .fondo {
-  background: #f5f3f4;
+  background-color: #a5a5a5;
 }
 
+nav {
+  font-family: "Raleway", sans-serif;
+}
 nav .logo {
   margin-left: 15px;
 }
@@ -44,20 +46,25 @@ footer .extra {
 .card {
   width: 80%;
   margin-left: 27px;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }
 .card .card-bg {
-  background-color: #d6ccc2;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 .card .card-title {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .cartelera {
+  font-family: "Comfortaa", sans-serif;
   width: 100%;
   text-align: center;
   color: white;
   font-weight: 900;
   text-wrap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .historia-card .historia-card-cabecera {
@@ -68,6 +75,7 @@ footer .extra {
 }
 .historia-card .historia-card-cabecera-titulo {
   margin-left: 10px;
+  font-family: "Raleway", sans-serif;
 }
 .historia-card .historia-card-cabecera-escudo {
   width: 2%;
@@ -79,6 +87,7 @@ footer .extra {
   margin-top: -5px;
   font-size: 20px;
   text-align: justify;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (width < 1520px) {

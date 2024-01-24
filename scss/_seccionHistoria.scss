@@ -10,6 +10,7 @@
     
       .historia-card-cabecera-titulo{
         margin-left: 10px;
+        font-family: $textosFont;
       }
     
       .historia-card-cabecera-escudo{
@@ -28,5 +29,6 @@
         margin-top: -5px;
         font-size:20px;
         text-align: justify;
+        font-family:$textosFont;
       }
 }
