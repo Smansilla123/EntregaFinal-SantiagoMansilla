@@ -1,5 +1,5 @@
 @media (width < 1520px){
-    
+
     footer{
         .img-footer{
             width: 4%;
@@ -25,6 +25,12 @@
 
 @media (width < 992px){
     
+   header{
+    .tit{
+        font-size: 31px;
+    }
+   }
+
     .historia-card{
         .historia-card-cuerpo-estadio{
             width: 100%;
@@ -70,7 +76,7 @@
 
 @media (width < 768px){
     .tarjetas{
-        width: 80%;
+        width: 55%;
     }
 
     .historia-card{
@@ -85,15 +91,23 @@
 
      footer{
         .img-footer{
-            width: 10%;
+            width: 9%;
          }
      }
 }
 
+
 @media (width < 521px){
+    
+    header{
+        .tit{
+            font-size: 25px;
+        }
+       }
+
     footer{
         .img-footer{
-            width: 13%;
+            width: 11%;
         }
     }
 
@@ -122,8 +136,15 @@
 }
 
 @media (width < 420px){
+    
+    header{
+        .tit{
+            font-size: 19px;
+        }
+       }
+    
     .tarjetas{
-        width: 100%;
+        width: 80%;
     }
     
     footer{
