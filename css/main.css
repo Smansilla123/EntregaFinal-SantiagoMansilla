@@ -78,22 +78,42 @@ nav .nav-navegacion {
 footer {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 footer .imagenes-footer {
   margin-left: 20px;
 }
-footer .img-footer {
+footer .imagenes-footer .img-footer {
   padding: 10px;
-  width: 3%;
+  width: 52px;
 }
-footer .img-footer:hover {
+footer .imagenes-footer .img-footer:hover {
   transform: rotateY(360deg);
   transition: all 2s;
 }
 footer .extra {
   color: white;
   margin-right: 20px;
+}
+footer .extra ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+footer .extra ul li {
+  list-style-type: none;
+}
+footer .extra ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .extra ul li a:hover {
+  color: #e5e5e5;
+}
+footer .extra ul .text-largo {
+  width: 150px;
 }
 
 .form {
@@ -262,6 +282,15 @@ footer .extra {
     width: 35%;
   }
 }
+@media (width < 863px) {
+  footer .extra {
+    margin-right: 80px;
+  }
+  footer .extra ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 @media (width < 830px) {
   footer .img-footer {
     width: 49px;
@@ -278,7 +307,7 @@ footer .extra {
 }
 @media (width < 768px) {
   .tarjetas {
-    width: 55%;
+    width: 65%;
   }
   .historia-card .historia-card-cuerpo-texto {
     font-size: 17px;
@@ -316,11 +345,24 @@ footer .extra {
     margin-left: inherit;
   }
 }
+@media (width < 671px) {
+  footer .extra ul {
+    flex-direction: column;
+  }
+}
 @media (width < 521px) {
+  .tarjetas {
+    width: 87%;
+  }
   header .tit {
     font-size: 25px;
   }
-  footer .img-footer {
+  footer .imagenes-footer {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .imagenes-footer .img-footer {
     width: 47px;
   }
   .form {

@@ -116,25 +116,46 @@ nav{
 footer{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 
     .imagenes-footer{
         margin-left: 20px;
-    }
+        .img-footer{
+            padding: 10px;
+            width: 52px;
     
-    .img-footer{
-        padding: 10px;
-        width: 3%;
-
-        &:hover{
-            transform: rotateY(360deg);
-            transition: all 2s;
+            &:hover{
+                transform: rotateY(360deg);
+                transition: all 2s;
+            }
         }
     }
+    
     
     .extra{
         color: white;
         margin-right: 20px;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 10px;
+            li{
+                list-style-type: none;
+                a{
+                   color: white;
+                   text-decoration: none;
+                   &:hover{
+                    color: #e5e5e5;
+                   }
+                }
+            }
+            .text-largo{
+                width: 150px;
+            }
+            
+        }
     }
 }
 
