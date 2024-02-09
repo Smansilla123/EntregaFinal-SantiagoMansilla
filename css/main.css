@@ -81,9 +81,6 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-footer .imagenes-footer {
-  margin-left: 20px;
-}
 footer .imagenes-footer .img-footer {
   padding: 10px;
   width: 52px;
@@ -378,7 +375,6 @@ footer .extra ul .text-largo {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
     gap: 13px;
   }
   footer .imagenes-footer .img-footer {
