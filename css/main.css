@@ -116,6 +116,18 @@ footer .extra ul .text-largo {
   width: 150px;
 }
 
+.registro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registro .form {
+  margin: auto;
+  width: 31%;
+}
+
 .form {
   width: 25%;
 }
@@ -239,12 +251,12 @@ footer .extra ul .text-largo {
   footer .img-footer {
     width: 50px;
   }
-  .form {
+  .registro .form {
     width: 30%;
   }
 }
 @media (width < 1200px) {
-  .form {
+  .registro .form {
     width: 35%;
   }
 }
@@ -259,7 +271,7 @@ footer .extra ul .text-largo {
   .historia-card .historia-card-cabecera-escudo {
     width: 4%;
   }
-  .form {
+  .registro .form {
     width: 40%;
   }
   .error .cont {
@@ -282,12 +294,11 @@ footer .extra ul .text-largo {
     width: 35%;
   }
 }
-@media (width < 863px) {
-  footer .extra {
-    margin-right: 80px;
-  }
-  footer .extra ul {
+@media (width < 837px) {
+  footer {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 }
@@ -295,7 +306,7 @@ footer .extra ul .text-largo {
   footer .img-footer {
     width: 49px;
   }
-  .form {
+  .registro .form {
     width: 50%;
   }
   .historia-card .historia-card-cabecera-escudo {
@@ -312,7 +323,7 @@ footer .extra ul .text-largo {
   .historia-card .historia-card-cuerpo-texto {
     font-size: 17px;
   }
-  .form {
+  .registro .form {
     width: 50%;
   }
   .error {
@@ -345,9 +356,15 @@ footer .extra ul .text-largo {
     margin-left: inherit;
   }
 }
-@media (width < 671px) {
+@media (width < 596px) {
+  .registro .form {
+    width: 70%;
+    margin-bottom: 131px;
+  }
   footer .extra ul {
+    display: flex;
     flex-direction: column;
+    gap: 10px;
   }
 }
 @media (width < 521px) {
@@ -358,14 +375,16 @@ footer .extra ul .text-largo {
     font-size: 25px;
   }
   footer .imagenes-footer {
-    margin-left: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 13px;
   }
   footer .imagenes-footer .img-footer {
-    width: 47px;
+    width: 49px;
   }
-  .form {
+  .registro .form {
     width: 80%;
   }
   .historia-card .historia-card-cuerpo-texto {
@@ -421,8 +440,8 @@ footer .extra ul .text-largo {
   footer .img-footer {
     width: 46px;
   }
-  .form {
-    width: 90%;
+  .registro .form {
+    width: 85%;
     margin-left: auto;
   }
   .error {

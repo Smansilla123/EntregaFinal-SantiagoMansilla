@@ -7,14 +7,19 @@
     
     }
 
+   .registro{
     .form{
         width: 30%;
      }
+   }
 }
 
 @media (width < 1200px){
-    .form{
-        width: 35%;
+  
+    .registro{
+        .form{
+            width: 35%;
+        }
     }
 
 }
@@ -39,9 +44,11 @@
     }
     
 
-    .form{
-        width: 40%;
-     }
+    .registro{
+        .form{
+            width: 40%;
+         }
+    }
 
      .error{
         .cont{
@@ -71,18 +78,14 @@
 
 }
 
-@media (width < 863px){
+@media (width < 837px){
 
-    footer{
-
-        .extra{
-            margin-right: 80px;
-            ul{
-                flex-direction: column;
-                justify-content: center;
-            }
-        }
-    }
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
 }
 
@@ -93,9 +96,11 @@
         }
     }
 
+  .registro{
     .form{
         width: 50%;
     }
+  }
 
     .historia-card{
         .historia-card-cabecera-escudo{
@@ -123,9 +128,11 @@
         }
     }
 
+   .registro{
     .form{
         width: 50%;
      }
+   }
 
      .error{
         flex-direction: column-reverse;
@@ -162,15 +169,27 @@
     }
 }
 
-@media (width < 671px){
-    footer{
-        .extra{
-           ul{
+@media (width < 596px){
+
+   .registro{
+    .form {
+        width: 70%;
+        margin-bottom: 131px
+    }
+   }
+
+  footer{
+    .extra{
+        ul{
+            display:flex;
             flex-direction: column;
-           }
+            gap: 10px;
         }
     }
+  }
+  
 }
+
 
 @media (width < 521px){
     
@@ -186,18 +205,22 @@
 
     footer{
         .imagenes-footer{
-            margin-left: 50px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            gap: 13px;
             .img-footer{
-                width: 47px;
+                width: 49px;
             }
     
         }
     }
 
-    .form{
-        width: 80%;
+    .registro{
+        .form{
+            width: 80%;
+        }
     }
 
     .historia-card{
@@ -272,10 +295,12 @@
         }
     }
 
-    .form{
-        width: 90%;
-        margin-left: auto;
-     }
+    .registro{
+        .form{
+            width: 85%;
+            margin-left: auto;
+         }
+    }
 
      .error{
         flex-direction: column-reverse;
