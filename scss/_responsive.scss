@@ -1,11 +1,6 @@
 @media (width < 1520px){
 
-    footer{
-        .img-footer{
-            width: 50px;
-        }
     
-    }
 
    .registro{
     .form{
@@ -75,24 +70,23 @@
      .messi-img{
         width: 35%;
     }
-
-}
-
-@media (width < 837px){
-
-  footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
 }
 
 @media (width < 830px){
+    
     footer{
-        .img-footer{
-            width: 49px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes-footer{
+            gap: 30px;
+            margin-left: 0;
+            margin-top: 10px;
+        }
+
+        ul{
+            margin-top: 10px;
+            margin-right: 0px;
         }
     }
 
@@ -171,22 +165,26 @@
 
 @media (width < 596px){
 
+    footer{
+
+        .imagenes-footer{
+            margin-top: 10px;
+        }
+
+        ul{
+            margin-top: 10px;
+            flex-direction: column;
+        }
+    }
+
    .registro{
     .form {
         width: 70%;
-        margin-bottom: 131px
+        margin-bottom: 131px;
+        margin-top: 400px;
     }
    }
 
-  footer{
-    .extra{
-        ul{
-            display:flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-    }
-  }
   
 }
 
@@ -202,19 +200,6 @@
             font-size: 25px;
         }
        }
-
-    footer{
-        .imagenes-footer{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 13px;
-            .img-footer{
-                width: 49px;
-            }
-    
-        }
-    }
 
     .registro{
         .form{
@@ -288,11 +273,6 @@
         width: 100%;
     }
     
-    footer{
-        .img-footer{
-            width: 46px;
-        }
-    }
 
     .registro{
         .form{
