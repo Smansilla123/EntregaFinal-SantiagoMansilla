@@ -1,15 +1,11 @@
 .card{
-    width: 80%;
-    margin-left: 27px;
-    font-family: $textosFont;
-    color: white;
+    @include product-card (80%,27px,white);
 
     &:hover{
         box-shadow: 0px 1px 10px lightgray,
         0px -1px 10px lightgray,
         1px 0px 10px lightgray,
         -1px 0px 10px lightgray;
-    
         transform: translateY(2px);
     }
 
@@ -18,7 +14,7 @@
     }
 
     .card-title{
-        font-weight: 600;
+        font-weight:600;
     }
 }
 

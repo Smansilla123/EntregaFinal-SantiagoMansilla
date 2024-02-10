@@ -25,13 +25,9 @@
     
       .historia-card-cuerpo-estadio{
         margin-bottom: 40px;
-    
       }
     
       .historia-card-cuerpo-texto{
-        margin-top: -5px;
-        font-size:20px;
-        text-align: justify;
-        font-family:$textosFont;
+        @include historia-text(-5px,20px,justify);
       }
 }

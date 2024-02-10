@@ -131,9 +131,9 @@ footer ul li a {
 }
 
 .card {
+  font-family: "Raleway", sans-serif;
   width: 80%;
   margin-left: 27px;
-  font-family: "Raleway", sans-serif;
   color: white;
 }
 .card:hover {
@@ -178,10 +178,10 @@ footer ul li a {
   margin-bottom: 40px;
 }
 .historia-card .historia-card-cuerpo-texto {
+  font-family: "Raleway", sans-serif;
   margin-top: -5px;
   font-size: 20px;
   text-align: justify;
-  font-family: "Raleway", sans-serif;
 }
 
 .error {

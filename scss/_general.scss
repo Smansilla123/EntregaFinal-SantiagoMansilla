@@ -4,7 +4,19 @@
 $titulosFont:'Comfortaa', sans-serif;
 $textosFont:'Raleway', sans-serif;
 
+@mixin historia-text($mt,$size,$align){
+    font-family: $textosFont;
+    margin-top: $mt;
+    font-size: $size;
+    text-align: $align;
+}
 
+@mixin product-card($width,$ml,$color){
+    font-family: $textosFont;
+    width: $width;
+    margin-left: $ml;
+    color: $color;
+}
 
 *{
     margin: 0px;
