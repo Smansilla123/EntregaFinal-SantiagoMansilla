@@ -21,3 +21,23 @@
 >Para la organización de las distintas páginas se utilizó la herramienta FLEXBOX que ayudó a distribuir los distintos componentes con mayor facilidad, también se utilizó el sistema GRID de BOOTSTRAP que permitió que las tarjetas de producto, el formulario y los elementos de la sección de historia se adapten a las distintas resoluciones logrando una cómoda navegación para el usuario.
 >
 >Finalmente, se implementó la herramienta SASS para optimizar las hojas de estilo de CSS facilitando la lectura del código permitiendo el uso de componentes como @import, MIXINS y VARS.
+
+## Lenguajes y Tecnologías
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## Frameworks
+![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![image](	https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## Sistema de control de versiones
+![image](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)
+![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+## Links
+Deployment de GitHub Pages:
+https://smansilla123.github.io/EntregaFinal-SantiagoMansilla/
+
+Mi dominio en Vercel:
+https://entrega-final-santiago-mansilla.vercel.app/
